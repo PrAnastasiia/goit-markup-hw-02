@@ -45,8 +45,11 @@ body {
 .nav-link:hover {
   color: #2196f3;
 }
-
 .nav-link:focus {
+  color: #2196f3;
+}
+
+.active {
   color: #2196f3;
 }
 
@@ -94,6 +97,14 @@ body {
   cursor: pointer;
 }
 
+.order-buttom:hover {
+  background: #188ce8;
+}
+
+.order-buttom:focus {
+  background: #188ce8;
+}
+
 .benefits-title {
   font-weight: 700;
   font-size: 14px;
@@ -117,6 +128,9 @@ body {
   color: #212121;
 }
 
+.team {
+  background: #f5f4fa;
+}
 .our-team-title {
   font-weight: 700;
   font-size: 36px;
@@ -146,6 +160,7 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  font-style: normal;
   color: #ffffff;
 }
 
@@ -153,6 +168,7 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  font-style: normal;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
@@ -161,6 +177,7 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  font-style: normal;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
@@ -205,18 +222,24 @@ footer {
   background: #2196f3;
   color: #ffffff;
 }
+.menu-batton:active {
+  color: #2196f3;
+}
 .portfolio-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
+  text-decoration: none;
 }
 
 .portfolio-descr {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #757575;
 }
 
 .visually-hidden {
